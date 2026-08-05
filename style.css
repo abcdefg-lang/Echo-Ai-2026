@@ -103,3 +103,32 @@ footer {
     border: 1px solid #ccc;
     font-size: 16px;
 }
+.chat-box {
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.echo-message {
+    background: #7c5cff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+    max-width: 70%;
+    margin-bottom: 15px;
+}
+
+
+.user-message {
+    background: #e5e5e5;
+    color: #333;
+    padding: 12px 18px;
+    border-radius: 20px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
