@@ -79,3 +79,27 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+.chat {
+    background: white;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.chat-box {
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
+
+.chat input {
+    width: 70%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
