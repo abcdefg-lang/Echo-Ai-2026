@@ -162,3 +162,23 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+.echo-message {
+    display: block !important;
+    background: #7c5cff !important;
+    color: white !important;
+    padding: 15px !important;
+    border-radius: 20px !important;
+    margin: 10px 0 !important;
+    width: fit-content !important;
+}
+
+
+.user-message {
+    display: block !important;
+    background: #e5e5e5 !important;
+    color: black !important;
+    padding: 15px !important;
+    border-radius: 20px !important;
+    margin: 10px 0 10px auto !important;
+    width: fit-content !important;
+}
