@@ -72,7 +72,7 @@ button:hover {
 
 
 
-/* Chat */
+/* Chat section */
 
 .chat {
     background: white;
@@ -97,12 +97,12 @@ button:hover {
 
 
 
-/* Echo message */
+/* Echo messages */
 
 .echo-message {
     background: #7c5cff;
     color: white;
-    padding: 12px 18px;
+    padding: 15px 18px;
     border-radius: 18px 18px 18px 5px;
     max-width: 70%;
     align-self: flex-start;
@@ -110,12 +110,12 @@ button:hover {
 
 
 
-/* User message */
+/* User messages */
 
 .user-message {
     background: #e5e5e5;
     color: black;
-    padding: 12px 18px;
+    padding: 15px 18px;
     border-radius: 18px 18px 5px 18px;
     max-width: 70%;
     align-self: flex-end;
@@ -123,7 +123,7 @@ button:hover {
 
 
 
-/* Input */
+/* Chat input */
 
 .chat input {
     width: 70%;
