@@ -23,28 +23,38 @@
                 designed to help you learn, create, and explore.
             </p>
 
-            <button>Start Chatting</button>
+            <button onclick="document.querySelector('.chat').scrollIntoView()">
+                Start Chatting
+            </button>
+
             <button onclick="window.location.href='account.html'">
-Create Account
-</button>
+                Create Account
+            </button>
+
             <button onclick="window.location.href='account.html'">
-Log In
-</button>
+                Log In
+            </button>
+
         </section>
 
-<section class="chat">
 
-    <h2>Chat with Echo 🤖</h2>
+        <section class="chat">
 
-    <div class="chat-box">
-        <p>Hi! I'm Echo 👋 How can I help you today?</p>
-    </div>
+            <h2>Chat with Echo 🤖</h2>
 
-    <input type="text" placeholder="Ask Echo something...">
+            <div class="chat-box">
+                <p id="echo-message">
+                    Hi! I'm Echo 👋 How can I help you today?
+                </p>
+            </div>
 
-    <button onclick="sendMessage()">Send</button>
+            <input id="user-input" type="text" placeholder="Ask Echo something...">
 
-</section>
+            <button onclick="sendMessage()">Send</button>
+
+        </section>
+
+
         <section class="features">
 
             <h2>What Echo Can Do</h2>
