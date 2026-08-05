@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,13 +15,13 @@ body {
 /* Header */
 
 header {
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 
 header h1 {
     font-size: 60px;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 
@@ -34,19 +39,21 @@ main {
 
 
 
-/* Welcome section */
+/* Welcome card */
 
-.welcome {
+.welcome,
+.chat {
     background: white;
-    max-width: 700px;
-    margin: auto;
-    padding: 30px;
-    border-radius: 25px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
 
-.welcome h2 {
+.welcome h2,
+.chat h2 {
     font-size: 35px;
 }
 
@@ -58,11 +65,12 @@ button {
     background: #7c5cff;
     color: white;
     border: none;
-    padding: 15px 25px;
+    padding: 15px 28px;
     margin: 10px;
     border-radius: 30px;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 
@@ -72,63 +80,57 @@ button:hover {
 
 
 
-/* Chat section */
-
-.chat {
-    background: white;
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 30px;
-    border-radius: 25px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
+/* Chat area */
 
 .chat-box {
+    background: #f4f4f8;
+    border-radius: 25px;
+    padding: 20px;
+    height: 350px;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background: #f3f3f3;
-    padding: 20px;
-    border-radius: 20px;
-    min-height: 200px;
     text-align: left;
 }
 
 
 
-/* Echo messages */
+/* Echo bubble */
 
 .echo-message {
     background: #7c5cff;
     color: white;
-    padding: 15px 18px;
-    border-radius: 18px 18px 18px 5px;
-    max-width: 70%;
+    padding: 15px 20px;
+    border-radius: 20px 20px 20px 5px;
+    max-width: 75%;
     align-self: flex-start;
+    font-size: 16px;
 }
 
 
 
-/* User messages */
+/* User bubble */
 
 .user-message {
-    background: #e5e5e5;
-    color: black;
-    padding: 15px 18px;
-    border-radius: 18px 18px 5px 18px;
-    max-width: 70%;
+    background: #e7e7e7;
+    color: #333;
+    padding: 15px 20px;
+    border-radius: 20px 20px 5px 20px;
+    max-width: 75%;
     align-self: flex-end;
+    font-size: 16px;
 }
 
 
 
-/* Chat input */
+/* Input */
 
 .chat input {
     width: 70%;
     padding: 15px;
-    border-radius: 25px;
+    margin-top: 20px;
+    border-radius: 30px;
     border: 1px solid #ccc;
     font-size: 16px;
 }
@@ -144,10 +146,11 @@ button:hover {
 
 .feature-box {
     background: white;
+    max-width: 400px;
     margin: 15px auto;
     padding: 20px;
-    max-width: 400px;
     border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 
