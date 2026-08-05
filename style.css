@@ -132,3 +132,33 @@ footer {
     margin-left: auto;
     margin-bottom: 15px;
 }
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 200px;
+    overflow-y: auto;
+}
+
+
+.echo-message {
+    background: #7c5cff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 18px 18px 18px 5px;
+    max-width: 70%;
+    align-self: flex-start;
+}
+
+
+.user-message {
+    background: #e5e5e5;
+    color: black;
+    padding: 12px 18px;
+    border-radius: 18px 18px 5px 18px;
+    max-width: 70%;
+    align-self: flex-end;
+}
