@@ -9,7 +9,6 @@ function sendMessage() {
         return;
     }
 
-
     let userMessage = document.createElement("div");
     userMessage.className = "user-message";
     userMessage.innerHTML = userText;
