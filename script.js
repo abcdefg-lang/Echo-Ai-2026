@@ -10,7 +10,6 @@ function sendMessage() {
     }
 
 
-    // Add user's message
     let userMessage = document.createElement("div");
     userMessage.className = "user-message";
     userMessage.innerHTML = userText;
@@ -18,7 +17,6 @@ function sendMessage() {
     chatBox.appendChild(userMessage);
 
 
-    // Add Echo's reply
     let echoMessage = document.createElement("div");
     echoMessage.className = "echo-message";
     echoMessage.innerHTML =
@@ -27,7 +25,6 @@ function sendMessage() {
     chatBox.appendChild(echoMessage);
 
 
-    // Clear typing box
     input.value = "";
 
 }
